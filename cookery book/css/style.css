@@ -1,0 +1,199 @@
+
+*{
+  align-items: center;
+}
+
+
+body {
+       background-image: url("../images/background.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+
+.toggle {
+  background:white ;
+  padding: 1px;
+  padding-right: 50px;
+  padding-bottom:1px;
+
+}
+
+.social {
+  color: inherit;
+  padding-left: 40px;
+  font-size: 25px;
+}
+
+
+
+.main {
+ background-color:rgb(191, 227, 245);
+ border:px solid black;
+   text-color:rgb(12, 12, 12);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-color:rgb(243, 251, 255);
+  text-align: center;
+
+
+  
+}
+.h {
+         padding-top:10px;
+         padding-bottom;
+         text-align:center;
+         text-color:red;
+}
+        
+
+.list {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  text-decoration: 2px underline;
+  background-position:center;
+  border: 1px solid brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  background-size: cover;
+}
+.box{
+  width:23%;
+  height: 300px;
+  margin: 20px;
+  font-size;30px:
+}
+
+.breakfast {
+ background-color:white;
+width:200px;
+border:px solid rgb(3, 3, 3);
+margin:0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.lunch {
+  background-color:white;
+width:200px;
+border:2px solid white;
+margin:0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: black;
+  
+}
+
+.dinner {
+ background-color:white;
+width:200px;
+border:px solid black;
+margin:0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.breakfast:hover, .lunch:hover, .dinner:hover {
+  color: brown;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bolder;
+}
+
+.bbc {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  
+}
+
+.bbc-gf:hover {
+  text-decoration: underline;
+  background-color: #ffcc99;
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+h3 {
+  padding-top: 30px;
+  padding-bottom: 30 px;
+}
+
+.recipe, .ingredients, .ingredient {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align:left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+
+a, .back {
+  text-decoration: none;
+}
+
+.back {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-back {
+  background: rgb(84, 16, 201);
+  border: 2px solid rgb(22, 21, 21);
+  border-radius: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-back:hover {
+  background: #ffcc99;
+  border: 2px solid brown;
+  font-weight: bolder;
+}
+
+.footer {
+  color: red;
+  position: relative;
+  background-color: ;
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copy {
+  font-weight: bolder;
+}
+
+
+.github {
+  text-decoration: underline;
+  }
+
+.github:hover {
+  text-decoration: underline;
+  background-color: black;
+  border: 2px solid #fff;
+  padding: 10px;
+}
